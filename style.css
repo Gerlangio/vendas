@@ -125,3 +125,38 @@ section .container {
     right: 5px;
 }
 
+/*.....HOME.....*/
+
+/*.....BRANCH - RAMO.....*/
+
+#branch .container {
+    background: url(image/bg3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#branch .container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+#branch .container .title .line {
+    /*width  - largura
+      height - altura*/
+    width: 150px;
+    height: 2px;
+    background: #b48c56;
+}
+
+#branch .container .title h1 {
+    /*font-weight - espessura da fonte
+      weight - peso*/
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 15px; /*letter-spacing - espaçamento entre letras*/
+    margin-top: 20px;
+}

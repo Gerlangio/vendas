@@ -160,3 +160,77 @@ section .container {
     letter-spacing: 15px; /*letter-spacing - espaçamento entre letras*/
     margin-top: 20px;
 }
+
+#branch .container .content {
+    width: 100%;  /*Largura*/
+    height: 90vh; /*Altura*/
+    display: flex;
+    justify-content: space-evenly; /*justificar-conteúdo: espaçar uniformemente;*/
+}
+/*cntainer - recipiente*/
+#branch .container .content .box {
+    width: 25%; /*Largura*/
+    height: 70vh; /*Altura*/
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#branch .container .box h3 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    letter-spacing: 8px; /*espaçamento entre letras*/
+    background: #b48c56;
+    padding: 5px 10px;
+    color: #f0f8ff;
+    border-radius: 5px;
+}
+
+#branch .container .box img {
+    width: 120px;
+}
+
+#branch .container .box h1 {
+    font-size: 2rem;
+    font-family: 'Belleza', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+#branch .container .box p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    color: #b48c56;
+    margin-top: 60px;
+}
+
+#branch .container .box button {
+    padding: 10px 20px; /*preenchimento*/
+    border: none;
+    background: #302725;
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    cursor: pointer;
+    transform: translateY(-35px); /*translate - traduzir*/
+    opacity: 0;
+    visibility: hidden; /*hidden - escondida*/
+    transition: all 0.5s ease; /*ease - facilidade*/
+}
+
+#branch .container .box:hover button {
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+}

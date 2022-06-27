@@ -290,3 +290,23 @@ section .container {
     font-family: 'Belleza', sans-serif;
     letter-spacing: 1px;
 }
+
+#about .container .title .call button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    background: #302725;
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#about .container .title .call button:hover {
+    transform: scale(1);
+    border: 2px solid #302725;
+    background: none;
+    color: #302725;
+    font-weight: 600;
+}

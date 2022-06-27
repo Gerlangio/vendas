@@ -223,7 +223,7 @@ section .container {
     font-size: 1.2rem;
     margin-top: 50px;
     cursor: pointer;
-    transform: translateY(-35px); /*translate - traduzir*/
+    transform: translateY(-40px); /*translate - traduzir*/
     opacity: 0;
     visibility: hidden; /*hidden - escondida*/
     transition: all 0.5s ease; /*ease - facilidade*/

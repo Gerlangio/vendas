@@ -311,3 +311,19 @@ section .container {
     font-weight: 600;
 }
 
+/*.....PRODUCTS.....*/
+#products .container {
+    background: url(image/bg3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#products .container .title {
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#products .container .title .line {
+    width: 150px;
+}

@@ -98,3 +98,7 @@ section .container {
     color: #b48c56;
     letter-spacing: 5px;
 }
+
+#home .container .content button {
+    padding-top: 200px;
+}

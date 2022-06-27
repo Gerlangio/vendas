@@ -170,7 +170,7 @@ section .container {
 /*cntainer - recipiente*/
 #branch .container .content .box {
     width: 25%; /*Largura*/
-    height: 70vh; /*Altura*/
+    height: 60vh; /*Altura*/
     background: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);

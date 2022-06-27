@@ -234,3 +234,51 @@ section .container {
     opacity: 1;
     visibility: visible;
 }
+
+/*.....ABOUT - SOBRE.....*/
+#about .container {
+    background: url(image/bg2.png) no-repeat; /*no-repeat - não repita*/
+    background-size: 100% 100%;
+}
+
+#about .container .title {
+    width: 70%; /*largura*/
+    display: flex; /*exibição: flexível*/
+    align-items: flex-end; /*alinhar-itens: extremidade-flexível*/
+    justify-content: center; /*justificar-conteúdo: centro*/
+    flex-direction: column; /*direção flexível: coluna*/
+    padding-top: 100px; /*acolchoamento superior*/
+}
+
+#about .container .title line {
+    width: 150px;
+    height: 2px;
+    background: #b48c56;
+}
+
+#about .container .title h1 {
+    margin-top: 20px; /*margem superior*/
+    text-transform: uppercase; /*transformação de texto: maiúsculas*/
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 15px;
+}
+
+#about .container .title .call {
+    width: 50%;
+    display: flex;
+    flex-direction: column; /*direção flexível: coluna*/
+    align-items: flex-start; /*alinhar-itens: início-flexível*/
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#about .container .title .call h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}

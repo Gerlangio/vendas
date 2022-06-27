@@ -102,3 +102,25 @@ section .container {
 #home .container .content button {
     padding-top: 200px;
 }
+
+#home .container .content .button button {
+    padding: 10px 20px;
+    border: none;
+    background: #b48c56;
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#home .container .content .button button:hover {
+    transform: scale(1.1);
+}
+
+#home .container .content button.btn2 {
+    background: #302725;
+    padding: 15px 20px;
+    position: relative;
+    right: 5px;
+}

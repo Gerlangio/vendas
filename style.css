@@ -317,7 +317,7 @@ section .container {
 }
 
 #products .container .title {
-    display: contents;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -327,4 +327,13 @@ section .container {
     width: 150px;
     height: 2px;
     background: #b48c56;
+}
+
+#products .container .title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin-top: 20px;
 }

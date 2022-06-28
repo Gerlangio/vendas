@@ -310,7 +310,6 @@ section .container {
     color: #302725;
     font-weight: 600;
 }
-
 /*.....PRODUCTS.....*/
 #products .container {
     background: url(image/bg3.png) no-repeat;
@@ -326,4 +325,6 @@ section .container {
 
 #products .container .title .line {
     width: 150px;
+    height: 2px;
+    background: #b48c56;
 }

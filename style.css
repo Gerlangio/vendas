@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belleza&display=swap');
-
+/*
+ (O * indica que as configurações são globais
+ */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;/*margem*/
+    padding: 0;/*acolchoamento*/
+    box-sizing: border-box; /*bordas da caixa*/
+    /*dimensionamento da caixa*/
 }
 
 body {

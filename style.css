@@ -8,25 +8,25 @@
     box-sizing: border-box; /*bordas da caixa*/
     /*dimensionamento da caixa*/
 }
-
+/*Configurações do corpo do site global*/
 body {
-    width: 100%;
-    height: 100vh;
+    width: 100%; /*width - largura*/
+    height: 100vh; /*height - altura*/
 }
-
+/*Configurações do cabeçalho do site global*/
 header {
-    max-width: 1680px;
-    width: 100%;
-    height: 70px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 99;
+    max-width: 1680px; /*largura máxima*/
+    width: 100%; /*largura 100%*/
+    height: 70px; /*Altura 70px*/
+    margin: 0 auto; /*Margem zero e automática*/
+    display: flex; /*Exibição flexível*/
+    align-items: center; /*Alinhar os ítens ao centro*/
+    justify-content: space-around; /*justificar o conteúdo - espaço ao redor*/
+    background: rgba(0, 0, 0, 0.7); /*Fundo*/
+    position: absolute; /*Posição: absoluta*/
+    left: 0; /*Esquerda zero*/
+    right: 0; /*Direita zero*/
+    z-index: 99; /*ïndice Z*/
 }
 
 header .loggo img {

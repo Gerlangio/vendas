@@ -18,3 +18,8 @@ header {
     align-items: center;
     justify-content: space-around;
 }
+
+header .logo img {
+    width: 120px;
+    margin: 0 60px;
+}

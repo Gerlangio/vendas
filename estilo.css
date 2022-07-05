@@ -1,14 +1,14 @@
 /**@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belleza&display=swap');*/
 
 * {
-    margin: 0;                      /*Passo 01*/
-    padding: 0;                     /*Passo 02*/
-    /*box-sizing: border-box;*/
+    margin: 0;                      /*Passo 14*/
+    padding: 0;                     /*Passo 15*/
+    box-sizing: border-box;         /*Passo 16*/
 }
 
 body {
-    /**width: 100%;*/
-    /**height: 100vh;*/
+    width: 100%;                    /*Passo 17*/
+    height: 100vh;                  /*Passo 18*/
 }
 
 header .logo {

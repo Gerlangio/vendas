@@ -11,6 +11,10 @@ body {
     /**height: 100vh;*/
 }
 
+header .logo {
+    width: 120px;
+}
+
 header {
     /**max-width: 1680px;*/
     /**width: 100%;*/

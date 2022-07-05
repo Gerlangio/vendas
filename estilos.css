@@ -1,22 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;                      /*Passo 14*/
+    padding: 0;                     /*Passo 15*/
+    box-sizing: border-box;         /*Passo 16*/
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+    width: 100%;                    /*Passo 17*/
+    height: 100vh;                  /*Passo 18*/
 }
 
 header {
-    max-width: 1680px;
-    width: 100%;
-    height: 60px;
-    margin: 0 auto;
+    max-width: 1680px;              /*Passo 19*/
+    width: 100%;                    /*Passo 20*/
+    height: 60px;                   /*Passo 21*/
+    margin: 0 auto;                 /*Passo 22*/
+    display: flex;                  /*Passo 25*/
+    align-items: center;            /*Passo 26*/
+    justify-content: space-around;  /*Passo 27*/
 }
 
 header .logo img {
-    width: 120px;
-    margin: 0 60px;
+    width: 120;                     /*Passo 23*/
+    margin: 0 60px;                 /*Passo 24*/
 }

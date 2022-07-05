@@ -23,3 +23,7 @@ header .logo img {
     width: 120;                     /*Passo 23*/
     margin: 0 60px;                 /*Passo 24*/
 }
+
+header .menu {
+    display: flex;
+}

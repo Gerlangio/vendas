@@ -14,6 +14,9 @@ header {
     width: 100%;                    /*Passo - 22*/
     height: 60px;                   /*Passo - 23*/
     margin: 0 auto;                 /*Passo - 24*/
+    display: flex;                  /*Passo - 25*/
+    align-items: center;            /*Passo - 26*/
+    justify-content: space-around;  /*Passo - 27*/
 }
 
 header .logo img {

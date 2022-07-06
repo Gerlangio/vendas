@@ -388,3 +388,11 @@ section .container {
     font-weight: 200;
     text-transform: uppercase;
 }
+
+#products .container .card .box p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: #b48c56;
+    margin-top: 15px;
+}

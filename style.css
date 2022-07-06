@@ -371,3 +371,8 @@ section .container {
     margin-top: 60px;
     cursor: pointer;
 }
+
+#products .container .card .box .icon ion-icon {
+    color: #f0f8ff;
+    font-size: 1.6rem;
+}

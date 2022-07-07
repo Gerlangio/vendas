@@ -463,3 +463,7 @@ section .container {
     font-family: 'Belleza', sans-serif;
     margin-top: 10px;
 }
+/*.....NEWS.....*/
+#news .container {
+    background: url(image/bg3.png) no-repeat;
+}

@@ -396,3 +396,16 @@ section .container {
     color: #b48c56;
     margin-top: 15px;
 }
+
+.owl-dot {
+    width: 15px;
+    height: 15px;
+    outline: none!important; /*delinear nenhum*/
+    border-radius: 50%;
+    border: 3px solid #b48c56!important;
+}
+
+.owl-dot.active {
+    width: 45px;
+    border-radius: 15px;
+}

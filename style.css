@@ -466,4 +466,5 @@ section .container {
 /*.....NEWS.....*/
 #news .container {
     background: url(image/bg3.png) no-repeat;
+    background-size: 100% 100%;
 }

@@ -1,8 +1,8 @@
 $('.card').owlCarousel({
     margin:20,
     loop:true,
-    autoplayTimeOut:2000,
-    autoplayHoverPauser:true,
+    autoplayTimeOut:2000, /*timeout - tempo esgotado */
+    autoplayHoverPauser:true, /*autoplayHoverPauser - Pausas de reprodução automática */
     responsive:{
         0:{
             items:1,

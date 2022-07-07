@@ -426,10 +426,40 @@ section .container {
 
 #team .container .content p {
     font-family: 'Belleza', sans-serif;
-    font-size: 1+2rem;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#team .container .content h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#team .container .content .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #team .container .content .image img {
     width: 100px;
     height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#team .container .content .title h1 {
+    font-family: 'Beba Neue', cursive;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#team .container .content .title p {
+    font-family: 'Belleza', sans-serif;
+    margin-top: 10px;
 }

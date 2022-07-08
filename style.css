@@ -575,3 +575,58 @@ section .container {
     opacity: 1;
     visibility: visible;
 }
+/*.....FOOTER.....*/
+#footer .container {
+    background: url(image/bg3.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer .container .content {
+    width: 90%;
+    height: 40vh;
+    background: #f2d2a3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*space-between - espaço entre*/
+}
+
+#footer .container .content .left {
+    width: 40%;
+    margin-left: 60px;
+}
+
+#footer .container .content .left h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.2rem;
+    font-weight: 200;
+    padding: 0 20px;
+    letter-spacing: 5px;
+}
+
+#footer .container .content .left p {
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+#footer .container .content .right {
+    width: 40%;
+}
+
+#footer .container .content .right input {
+    padding: 10px 60px;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+#footer .container .content .right button {
+    padding: 10px 35px;
+}

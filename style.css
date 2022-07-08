@@ -629,4 +629,11 @@ section .container {
 
 #footer .container .content .right button {
     padding: 10px 35px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    border: none;
+    background: #302725;
+    color: #f0f8ff;
+    cursor: pointer;
 }

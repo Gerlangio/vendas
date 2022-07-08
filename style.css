@@ -637,3 +637,56 @@ section .container {
     color: #f0f8ff;
     cursor: pointer;
 }
+
+#footer .container .info {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+#footer .container .info .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .container .info .box h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer .container .info .box p, a {
+    font-family: 'Belleza' sans-serif;
+    margin-top: 10px;
+    color: #737373;
+    text-decoration: none;
+}
+
+#footer .container .info .box ion-icon {
+    font-size: 1.6rem;
+}
+
+#footer .container .info .box ion-icon:hover {
+    color: #b48c56;
+}
+
+#footer .container .line {
+    width: 80%;
+    height: 1px;
+    background: #b48c56;
+    margin-top: 60px;
+}
+
+#footer .container .copyright {
+    font-family: 'Belleza' sans-serif;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #302725;
+}
+
+/*.....RESPOSIVE.....*/

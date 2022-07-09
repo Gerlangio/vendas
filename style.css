@@ -758,4 +758,9 @@ section .container {
         position: fixed;
         right: 40px;
     }
+    header .btn ion-icon {
+        color: #ddb06e;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
 }

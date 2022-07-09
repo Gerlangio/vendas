@@ -690,3 +690,9 @@ section .container {
 }
 
 /*.....RESPOSIVE.....*/
+@media screen and (max-width: 1024px) {
+    header {
+        background: none;
+        justify-content: space-between;
+    }
+}

@@ -211,7 +211,7 @@ section .container {
     letter-spacing: 8px; /*espaçamento entre letras*/
     background: #b48c56;
     padding: 5px 10px;
-    color: #f0f8ff;
+    color: #fff;
     border-radius: 5px;
 }
 
@@ -229,11 +229,11 @@ section .container {
 }
 
 #branch .container .box p {
-    font-family: 'Bebas Neue', cursive;
+    margin-top: 60px;
     font-size: 1.8rem;
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
     color: #b48c56;
-    margin-top: 60px;
 }
 
 #branch .container .box button {

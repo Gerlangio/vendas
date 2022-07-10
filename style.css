@@ -468,90 +468,81 @@ section .container {
     height: 100px;
     object-fit: cover; /*AJUSTE DE OBJETO "TAMPA"*/
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
 #team .container .content .title h1 {
-    font-family: 'Beba Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-weight: 300;
     letter-spacing: 5px;
 }
 
-#team .container .content .title p {
+#team .container .content .title p{
     font-family: 'Belleza', sans-serif;
     margin-top: 10px;
 }
 /*.....NEWS.....*/
-#news .container {
+#news .container{
     background: url(image/bg3.png) no-repeat;
     background-size: 100% 100%;
 }
-
-#news .container .title {
+#news .container .title{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
-#news .container .title .line {
+#news .container .title .line{
     width: 150px;
     height: 2px;
-    background: #b48c56;
+    background: #B48C56;
 }
-
-#news .container .title h1 {
+#news .container .title h1{
+    margin-top:20px;
+    text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
-    text-transform: uppercase;
     letter-spacing: 15px;
-    margin-top: 20px;
 }
-
-#news .container .content {
+#news .container .content{
     width: 100%;
     height: 60vh;
     display: flex;
-    justify-content: space-evenly; /*espaçar uniformemente*/
+    justify-content: space-evenly;
 }
-
-#news .container .content .box {
+#news .container .content .box{
     width: 20%;
     height: 40vh;
     background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     margin-top: 120px;
-    transition: all 0.3s ease;
+    transition: 0.3s
 }
-
-#news .container .content .box:hover {
-    background: rgba(48, 39, 37, 0.9);
-    height: 60vh;
-}
-
-#news .container .content .box h3 {
+#news .container .content .box h3{
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5rem;
     font-weight: 200;
     letter-spacing: 5px;
     margin-top: 50px;
     margin-bottom: 30px;
-    background: #b48c56;
+    background: #B48C56;
     padding: 5px 20px;
-    color: #f0f8ff;
+    color: #fff;
 }
-
-#news .container .content .box img {
+#news .container .content .box:hover{
+    background: rgba(48, 39, 37, 0.9);
+    height: 60vh;
+}
+#news .container .content .box img{
     width: 150px;
 }
-
-#news .container .content .box h1 {
+#news .container .content .box h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5rem;
     font-weight: 200;
@@ -559,84 +550,77 @@ section .container {
     margin-top: 20px;
     color: #737373;
 }
-
-#news .container .content .box:hover h1 {
-    color: #f0f8ff;
+#news .container .content .box:hover h1{
+    color: #ffffff;
 }
 
-#news .container .content .box p {
+#news .container .content .box p{
     font-family: 'Bebas Neue', cursive;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #b48c56;
+    color: #B48C56;
     letter-spacing: 5px;
     margin-top: 20px;
 }
-
-#news .container .content .box button {
+#news .container .box button{
     padding: 10px 20px;
     border: none;
-    background: #b48c56;
-    color: #f2d2a3;
+    background: #B48C56;
+    color: #fff;
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
     margin-top: 50px;
     transform: translateY(-40px);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: 0.5s;
     cursor: pointer;
 }
-
-#news .container .content .box:hover button {
+#news .container .box:hover button{
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
 }
-/*.....FOOTER.....*/
-#footer .container {
+
+/*      footer       */
+
+#footer .container{
     background: url(image/bg3.png) no-repeat;
     background-size: 100% 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
-
-#footer .container .content {
+#footer .container .content{
     width: 90%;
     height: 40vh;
-    background: #f2d2a3;
+    background:#F2D2A3 ;
     display: flex;
     align-items: center;
-    justify-content: space-between; /*space-between - espaço entre*/
+    justify-content: space-between;
 }
-
-#footer .container .content .left {
+#footer .container .content .left{
     width: 40%;
     margin-left: 60px;
 }
-
-#footer .container .content .left h1 {
+#footer .container .content .left h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 2.2rem;
     font-weight: 200;
     padding: 0 20px;
     letter-spacing: 5px;
 }
-
-#footer .container .content .left p {
+#footer .container .content .left p{
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
     margin-top: 50px;
     padding: 0 20px;
 }
-
-#footer .container .content .right {
+#footer .container .content .right{
     width: 40%;
 }
-
-#footer .container .content .right input {
+#footer .container .content .right input{
     padding: 10px 60px;
     border: none;
     font-family: 'Bebas Neue', cursive;
@@ -644,62 +628,58 @@ section .container {
     font-size: 1.1rem;
     outline: none;
 }
-
-#footer .container .content .right button {
+#footer .container .content .right button{
     padding: 10px 35px;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
     font-size: 1.1rem;
     border: none;
     background: #302725;
-    color: #f0f8ff;
+    color: #fff;
     cursor: pointer;
 }
-
-#footer .container .info {
+#footer .container .info{
     width: 90%;
     height: 20vh;
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
 }
-
-#footer .container .info .box {
+#footer .container .info .box{
     display: flex;
     flex-direction: column;
 }
-
-#footer .container .info .box h1 {
+#footer .container .info .box h1{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-#footer .container .info .box p, a {
-    font-family: 'Belleza' sans-serif;
+#footer .container .info .box p{
+    font-family: 'Belleza', sans-serif;
     margin-top: 10px;
     color: #737373;
-    text-decoration: none;
 }
-
-#footer .container .info .box ion-icon {
+#footer .container .info .box a{
+    font-family: 'Belleza', sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #737373;
+}
+#footer .container .info .box ion-icon{
     font-size: 1.6rem;
 }
-
-#footer .container .info .box ion-icon:hover {
-    color: #b48c56;
+#footer .container .info .box ion-icon:hover{
+    color: #B48C56;
 }
-
-#footer .container .line {
+#footer .container .line{
     width: 80%;
     height: 1px;
-    background: #b48c56;
+    background: #B48C56;
     margin-top: 60px;
 }
-
-#footer .container .copyright {
-    font-family: 'Belleza' sans-serif;
+#footer .container .copyright p{
+    font-family: 'Belleza', sans-serif;
     margin-top: 25px;
     font-size: 1.1rem;
     letter-spacing: 2px;
@@ -708,23 +688,24 @@ section .container {
 }
 
 /*.....RESPOSIVE.....*/
-@media screen and (max-width: 1440px) {
-    header .menu ul li {
+@media screen and (max-width: 1440px){
+    header .menu ul li{
         padding: 0 15px;
     }
-    header .menu ul li a {
+    header .menu ul li a{
         font-size: 1.1rem;
     }
-    #about .container .title { 
+    #about .container .title{
         padding-top: 80px;
         margin-left: 60px;
     }
-    #about .container .title .call {
+    #about .container .title .call{
         top: 50px;
     }
-    #about .container .content .box {
+    #news .container .content .box{
         height: 55vh;
-    }
+    }  
+}
 }
 @media screen and (max-width: 1024px) {
     header {

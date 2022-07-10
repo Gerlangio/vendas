@@ -187,18 +187,20 @@ section .container {
     display: flex;
     justify-content: space-evenly; /*justificar-conteúdo: espaçar uniformemente;*/
 }
+
 /*cntainer - recipiente*/
 #branch .container .content .box {
     width: 25%; /*Largura*/
     height: 60vh; /*Altura*/
     background: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     margin-top: 40px;
+    transition: 0.3s;
 }
 
 #branch .container .box h3 {

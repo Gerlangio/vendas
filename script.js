@@ -18,3 +18,7 @@ $('.card').owlCarousel({
         }
     }
 })
+
+$('.btn').click(function(){
+    $('.menu-mobile').slideToggle('show')/*Alternar sólido */
+})

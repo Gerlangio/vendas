@@ -240,19 +240,19 @@ section .container {
     padding: 10px 20px; /*preenchimento*/
     border: none;
     background: #302725;
-    color: #f0f8ff;
+    color: #fff;
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
     margin-top: 50px;
-    cursor: pointer;
     transform: translateY(-40px); /*translate - traduzir*/
     opacity: 0;
     visibility: hidden; /*hidden - escondida*/
     transition: all 0.5s ease; /*ease - facilidade*/
+    cursor: pointer;
 }
                       /*hover - flutuar*/
 #branch .container .box:hover button {
-    transform: translate(0);
+    transform: translateY(0);
     opacity: 1;
     visibility: visible;
 }

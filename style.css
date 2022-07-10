@@ -132,8 +132,8 @@ section .container {
     color: #f0f8ff;
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
-    cursor: pointer;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 #home .container .content .button button:hover {
@@ -146,8 +146,6 @@ section .container {
     position: relative;
     right: 5px;
 }
-
-/*.....HOME.....*/
 
 /*.....BRANCH - RAMO.....*/
 

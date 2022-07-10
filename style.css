@@ -308,8 +308,8 @@ section .container {
 }
 
 #about .container .title .call p {
-    font-size: 1.3rem;
     font-family: 'Belleza', sans-serif;
+    font-size: 1.3rem;
     letter-spacing: 1px;
 }
 

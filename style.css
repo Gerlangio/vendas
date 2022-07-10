@@ -318,11 +318,11 @@ section .container {
     padding: 10px 20px;
     border: none;
     background: #302725;
-    color: #f0f8ff;
+    color: #fff;
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: 0.2s ease;
 }
 
 #about .container .title .call button:hover {
@@ -351,13 +351,13 @@ section .container {
     background: #b48c56;
 }
 
-#products .container .title h1 {
+#products .container .title h1{
+    margin-top:20px;
+    text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
-    text-transform: uppercase;
     letter-spacing: 15px;
-    margin-top: 20px;
 }
 
 #products .container .card {

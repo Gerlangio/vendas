@@ -299,12 +299,12 @@ section .container {
 }
 
 #about .container .title .call h2 {
+    text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-weight: 200;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    margin-bottom: 80px;
     letter-spacing: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 80px;
 }
 
 #about .container .title .call p {

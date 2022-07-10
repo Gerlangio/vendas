@@ -741,7 +741,7 @@ section .container {
         text-align: center;
 
     }
-    
+
     header .menu-mobile ul li a{
         text-decoration: none;
         font-size: 1.3rem;
@@ -750,25 +750,17 @@ section .container {
         transition: all 0.3s;
     }
 
-    header .menu-mobile ul li a:hover {
-        color: #f2d2a3;
+    header .menu-mobile ul li a:hover{
+        color: #F2D2A3;
         text-decoration: underline;
     }
 
-    header .menu-mobile {
-        display: none;
-    }
-
-    header .btn {
-        display: none;
-    }
-
-    header .btn {
+    header .btn{
         display: block;
         position: fixed;
         right: 40px;
     }
-    header .btn ion-icon {
+    header .btn ion-icon{
         color: #ddb06e;
         font-size: 1.5rem;
         cursor: pointer;

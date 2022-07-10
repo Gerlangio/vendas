@@ -381,7 +381,7 @@ section .container {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-#products .container .card .box .icon {
+#products .container .card .box .icon{
     width: 50px;
     height: 60px;
     background: #302725;
@@ -391,8 +391,8 @@ section .container {
     cursor: pointer;
 }
 
-#products .container .card .box .icon ion-icon {
-    color: #f0f8ff;
+#products .container .card .box .icon ion-icon{
+    color: #fff;
     font-size: 1.6rem;
 }
 

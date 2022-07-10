@@ -173,12 +173,12 @@ section .container {
 #branch .container .title h1 {
     /*font-weight - espessura da fonte
       weight - peso*/
+    margin-top: 20px;
+    text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
-    text-transform: uppercase;
     letter-spacing: 15px; /*letter-spacing - espaçamento entre letras*/
-    margin-top: 20px;
 }
 
 #branch .container .content {

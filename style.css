@@ -706,40 +706,50 @@ section .container {
         height: 55vh;
     }  
 }
-}
+
 @media screen and (max-width: 1024px) {
-    header {
+
+    /*      header       */
+
+    header{
         background: none;
-        justify-content: space-between;
+        justify-content:space-between;
         padding: 0 40px;
     }
-    header .menu {
+
+    header .menu{
         display: none;
     }
-    header .menu-mobile {
-        display: block;
+
+    header .menu-mobile{
         width: 250px;
-        height: 10vh;
+        height: 100vh;
         background: rgba(0, 0, 0, 0.9);
         position: fixed;
         top: 0;
         right: 0;
     }
-    header .menu-mobile ul {
+
+    header .menu-mobile ul{
+        display: block;
         padding: 70px;
     }
-    header .menu-mobile ul li {
+
+    header .menu-mobile ul li{
         list-style: none;
         padding: 40px 0;
         text-align: center;
+
     }
-    header .menu-mobile ul li a {
+    
+    header .menu-mobile ul li a{
         text-decoration: none;
-        color: #b48c56;
         font-size: 1.3rem;
         font-family: 'Belleza', sans-serif;
-        transition: all 0.3s ease;
+        color: #B48C56;
+        transition: all 0.3s;
     }
+
     header .menu-mobile ul li a:hover {
         color: #f2d2a3;
         text-decoration: underline;
